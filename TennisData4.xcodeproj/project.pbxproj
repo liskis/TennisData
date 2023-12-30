@@ -22,6 +22,14 @@
 		0927E0572B3D06B20069BEF1 /* TennisData4_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0927E0562B3D06B20069BEF1 /* TennisData4_Watch_AppTests.swift */; };
 		0927E0612B3D06B20069BEF1 /* TennisData4_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0927E0602B3D06B20069BEF1 /* TennisData4_Watch_AppUITests.swift */; };
 		0927E0632B3D06B20069BEF1 /* TennisData4_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0927E0622B3D06B20069BEF1 /* TennisData4_Watch_AppUITestsLaunchTests.swift */; };
+		0927E07A2B3E646F0069BEF1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0927E0792B3E646F0069BEF1 /* HomeView.swift */; };
+		0927E07C2B3E66BB0069BEF1 /* HomeGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0927E07B2B3E66BA0069BEF1 /* HomeGraphView.swift */; };
+		0927E07E2B3E67690069BEF1 /* HomeHeaderBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0927E07D2B3E67690069BEF1 /* HomeHeaderBar.swift */; };
+		0927E0822B3E68D50069BEF1 /* MatchRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0927E0812B3E68D50069BEF1 /* MatchRecordView.swift */; };
+		0927E0842B3E690D0069BEF1 /* DataAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0927E0832B3E690D0069BEF1 /* DataAnalysisView.swift */; };
+		1F808BA3FB5C495AC9D0C5E0 /* Pods_TennisData4_TennisData4UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551CA8A23D904BDDB296BECE /* Pods_TennisData4_TennisData4UITests.framework */; };
+		81A3AB262CC0E8BB74B8A6A6 /* Pods_TennisData4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 133C54C4C2136F9D488FFDE7 /* Pods_TennisData4.framework */; };
+		D8CC1A8C239D3FE46E1C0920 /* Pods_TennisData4Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737A6C8F71E462F699E2B166 /* Pods_TennisData4Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +105,20 @@
 		0927E05C2B3D06B20069BEF1 /* TennisData4 Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TennisData4 Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0927E0602B3D06B20069BEF1 /* TennisData4_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisData4_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		0927E0622B3D06B20069BEF1 /* TennisData4_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisData4_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0927E0792B3E646F0069BEF1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0927E07B2B3E66BA0069BEF1 /* HomeGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGraphView.swift; sourceTree = "<group>"; };
+		0927E07D2B3E67690069BEF1 /* HomeHeaderBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderBar.swift; sourceTree = "<group>"; };
+		0927E0812B3E68D50069BEF1 /* MatchRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchRecordView.swift; sourceTree = "<group>"; };
+		0927E0832B3E690D0069BEF1 /* DataAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAnalysisView.swift; sourceTree = "<group>"; };
+		127BC1BD3669EE2E1AB6DF31 /* Pods-TennisData4-TennisData4UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TennisData4-TennisData4UITests.release.xcconfig"; path = "Target Support Files/Pods-TennisData4-TennisData4UITests/Pods-TennisData4-TennisData4UITests.release.xcconfig"; sourceTree = "<group>"; };
+		133C54C4C2136F9D488FFDE7 /* Pods_TennisData4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TennisData4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		551CA8A23D904BDDB296BECE /* Pods_TennisData4_TennisData4UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TennisData4_TennisData4UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BDBE8CE8086F4487B79BB5A /* Pods-TennisData4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TennisData4.debug.xcconfig"; path = "Target Support Files/Pods-TennisData4/Pods-TennisData4.debug.xcconfig"; sourceTree = "<group>"; };
+		6EFA25B2065ED4D209F8A1F5 /* Pods-TennisData4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TennisData4.release.xcconfig"; path = "Target Support Files/Pods-TennisData4/Pods-TennisData4.release.xcconfig"; sourceTree = "<group>"; };
+		737A6C8F71E462F699E2B166 /* Pods_TennisData4Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TennisData4Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5C222DF4692EFB58BC4054 /* Pods-TennisData4Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TennisData4Tests.release.xcconfig"; path = "Target Support Files/Pods-TennisData4Tests/Pods-TennisData4Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B47FD449FF5791AF25FF9CC8 /* Pods-TennisData4-TennisData4UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TennisData4-TennisData4UITests.debug.xcconfig"; path = "Target Support Files/Pods-TennisData4-TennisData4UITests/Pods-TennisData4-TennisData4UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC179384983008DFE0CFC27A /* Pods-TennisData4Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TennisData4Tests.debug.xcconfig"; path = "Target Support Files/Pods-TennisData4Tests/Pods-TennisData4Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81A3AB262CC0E8BB74B8A6A6 /* Pods_TennisData4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8CC1A8C239D3FE46E1C0920 /* Pods_TennisData4Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F808BA3FB5C495AC9D0C5E0 /* Pods_TennisData4_TennisData4UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +180,8 @@
 				0927E0552B3D06B20069BEF1 /* TennisData4 Watch AppTests */,
 				0927E05F2B3D06B20069BEF1 /* TennisData4 Watch AppUITests */,
 				0927E01B2B3D06B00069BEF1 /* Products */,
+				257703007FCED6DA6EB948DC /* Pods */,
+				3B537EBFA063B3C07FBD7B47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,8 +201,8 @@
 		0927E01C2B3D06B00069BEF1 /* TennisData4 */ = {
 			isa = PBXGroup;
 			children = (
+				0927E0802B3E686A0069BEF1 /* View */,
 				0927E01D2B3D06B00069BEF1 /* TennisData4App.swift */,
-				0927E01F2B3D06B00069BEF1 /* ContentView.swift */,
 				0927E0212B3D06B10069BEF1 /* Assets.xcassets */,
 				0927E0232B3D06B10069BEF1 /* Preview Content */,
 			);
@@ -243,6 +270,42 @@
 			path = "TennisData4 Watch AppUITests";
 			sourceTree = "<group>";
 		};
+		0927E0802B3E686A0069BEF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0927E07D2B3E67690069BEF1 /* HomeHeaderBar.swift */,
+				0927E07B2B3E66BA0069BEF1 /* HomeGraphView.swift */,
+				0927E0792B3E646F0069BEF1 /* HomeView.swift */,
+				0927E01F2B3D06B00069BEF1 /* ContentView.swift */,
+				0927E0812B3E68D50069BEF1 /* MatchRecordView.swift */,
+				0927E0832B3E690D0069BEF1 /* DataAnalysisView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		257703007FCED6DA6EB948DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BDBE8CE8086F4487B79BB5A /* Pods-TennisData4.debug.xcconfig */,
+				6EFA25B2065ED4D209F8A1F5 /* Pods-TennisData4.release.xcconfig */,
+				B47FD449FF5791AF25FF9CC8 /* Pods-TennisData4-TennisData4UITests.debug.xcconfig */,
+				127BC1BD3669EE2E1AB6DF31 /* Pods-TennisData4-TennisData4UITests.release.xcconfig */,
+				FC179384983008DFE0CFC27A /* Pods-TennisData4Tests.debug.xcconfig */,
+				AF5C222DF4692EFB58BC4054 /* Pods-TennisData4Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3B537EBFA063B3C07FBD7B47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				133C54C4C2136F9D488FFDE7 /* Pods_TennisData4.framework */,
+				551CA8A23D904BDDB296BECE /* Pods_TennisData4_TennisData4UITests.framework */,
+				737A6C8F71E462F699E2B166 /* Pods_TennisData4Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -250,10 +313,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0927E06A2B3D06B20069BEF1 /* Build configuration list for PBXNativeTarget "TennisData4" */;
 			buildPhases = (
+				BABFA41720DA8FCBFF1A6FCB /* [CP] Check Pods Manifest.lock */,
 				0927E0162B3D06B00069BEF1 /* Sources */,
 				0927E0172B3D06B00069BEF1 /* Frameworks */,
 				0927E0182B3D06B00069BEF1 /* Resources */,
 				0927E0692B3D06B20069BEF1 /* Embed Watch Content */,
+				DDAB15266AD491A8B86547BC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -269,6 +334,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0927E06D2B3D06B20069BEF1 /* Build configuration list for PBXNativeTarget "TennisData4Tests" */;
 			buildPhases = (
+				89FC57220DAE85F1C303DE65 /* [CP] Check Pods Manifest.lock */,
 				0927E0262B3D06B10069BEF1 /* Sources */,
 				0927E0272B3D06B10069BEF1 /* Frameworks */,
 				0927E0282B3D06B10069BEF1 /* Resources */,
@@ -287,9 +353,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0927E0702B3D06B20069BEF1 /* Build configuration list for PBXNativeTarget "TennisData4UITests" */;
 			buildPhases = (
+				C3C0A0E76E0B61A4DB9CF0A3 /* [CP] Check Pods Manifest.lock */,
 				0927E0302B3D06B10069BEF1 /* Sources */,
 				0927E0312B3D06B10069BEF1 /* Frameworks */,
 				0927E0322B3D06B10069BEF1 /* Resources */,
+				E12897892CB1087CAEF0F991 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -460,13 +528,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		89FC57220DAE85F1C303DE65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TennisData4Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BABFA41720DA8FCBFF1A6FCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TennisData4-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3C0A0E76E0B61A4DB9CF0A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TennisData4-TennisData4UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDAB15266AD491A8B86547BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TennisData4/Pods-TennisData4-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TennisData4/Pods-TennisData4-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TennisData4/Pods-TennisData4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E12897892CB1087CAEF0F991 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TennisData4-TennisData4UITests/Pods-TennisData4-TennisData4UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TennisData4-TennisData4UITests/Pods-TennisData4-TennisData4UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TennisData4-TennisData4UITests/Pods-TennisData4-TennisData4UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0927E0162B3D06B00069BEF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0927E07C2B3E66BB0069BEF1 /* HomeGraphView.swift in Sources */,
 				0927E0202B3D06B00069BEF1 /* ContentView.swift in Sources */,
 				0927E01E2B3D06B00069BEF1 /* TennisData4App.swift in Sources */,
+				0927E07A2B3E646F0069BEF1 /* HomeView.swift in Sources */,
+				0927E0842B3E690D0069BEF1 /* DataAnalysisView.swift in Sources */,
+				0927E07E2B3E67690069BEF1 /* HomeHeaderBar.swift in Sources */,
+				0927E0822B3E68D50069BEF1 /* MatchRecordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,6 +895,7 @@
 		};
 		0927E06B2B3D06B20069BEF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BDBE8CE8086F4487B79BB5A /* Pods-TennisData4.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -727,6 +904,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TennisData4/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = TennisData4;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -734,7 +912,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -751,6 +929,7 @@
 		};
 		0927E06C2B3D06B20069BEF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EFA25B2065ED4D209F8A1F5 /* Pods-TennisData4.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -759,6 +938,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TennisData4/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = TennisData4;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -766,7 +946,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -784,6 +964,7 @@
 		};
 		0927E06E2B3D06B20069BEF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC179384983008DFE0CFC27A /* Pods-TennisData4Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -804,6 +985,7 @@
 		};
 		0927E06F2B3D06B20069BEF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF5C222DF4692EFB58BC4054 /* Pods-TennisData4Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -825,6 +1007,7 @@
 		};
 		0927E0712B3D06B20069BEF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47FD449FF5791AF25FF9CC8 /* Pods-TennisData4-TennisData4UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -844,6 +1027,7 @@
 		};
 		0927E0722B3D06B20069BEF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 127BC1BD3669EE2E1AB6DF31 /* Pods-TennisData4-TennisData4UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

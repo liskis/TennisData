@@ -1,0 +1,28 @@
+PODS:
+  - DGCharts (5.0.0):
+    - DGCharts/Core (= 5.0.0)
+  - DGCharts/Core (5.0.0)
+  - Realm (10.45.2):
+    - Realm/Headers (= 10.45.2)
+  - Realm/Headers (10.45.2)
+  - RealmSwift (10.45.2):
+    - Realm (= 10.45.2)
+
+DEPENDENCIES:
+  - DGCharts
+  - RealmSwift
+
+SPEC REPOS:
+  trunk:
+    - DGCharts
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  DGCharts: 6e0cf2644e8f81ad13f04caa8bc18502870a1c54
+  Realm: bc4fc31783a0b3e355edca05f167f6a49c544dc2
+  RealmSwift: 234003b5fdb187c4b439d478662636d62a1f9de0
+
+PODFILE CHECKSUM: cc0f81a618dee08f575f16264f5f241de392780c
+
+COCOAPODS: 1.14.1

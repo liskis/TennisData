@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-TennisData4-TennisData4UITests/Pods-TennisData4-TennisData4UITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DGCharts/DGCharts.framework
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework

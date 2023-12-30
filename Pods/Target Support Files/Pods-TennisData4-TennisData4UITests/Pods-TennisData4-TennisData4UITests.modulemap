@@ -1,0 +1,6 @@
+framework module Pods_TennisData4_TennisData4UITests {
+  umbrella header "Pods-TennisData4-TennisData4UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
